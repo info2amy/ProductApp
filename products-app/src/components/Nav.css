@@ -1,0 +1,13 @@
+.header {
+  font-size: 15px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: start;
+  margin-left: 45px;
+  font-family: "Shadows Into Light", cursive;
+}
+
+hr {
+  width: 100%;
+  margin-left: 0%;
+}
