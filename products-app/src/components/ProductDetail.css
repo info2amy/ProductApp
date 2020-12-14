@@ -1,0 +1,6 @@
+.item-deets {
+  display: flex;
+  flex-direction: column;
+  height: 300;
+  width: 500;
+}
