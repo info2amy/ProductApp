@@ -1,6 +1,22 @@
-.item-deets {
+/* .item-deets {
   display: flex;
   flex-direction: column;
-  height: 300;
-  width: 500;
+} */
+
+.item-deets img {
+  /* display: inline-block; */
+  width: 500px;
+  margin-top: 0;
+}
+
+.item-deets h3 {
+  display: b;
+  font-size: 25px;
+}
+
+.item-deets p {
+  width: 60vw;
+  letter-spacing: 0.8px;
+  line-height: 1.5;
+  justify-content: center;
 }

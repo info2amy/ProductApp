@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { useParams } from "react-router-dom";
+import "./ProductDetail.css";
 
 export default function ProductDetail(props) {
   // usePARAMS reads the ":cabinID" from the URL
@@ -23,7 +24,7 @@ export default function ProductDetail(props) {
     <div className="item-deets" key={item._id}>
       <img src={item.imgURL} alt="Pic" />
       <h3>{item.name}</h3>
-      <h5>${item.price}</h5>
+      <h2>${item.price}</h2>
       <p>{item.description}</p>
     </div>
   );

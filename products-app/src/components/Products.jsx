@@ -22,7 +22,7 @@ export default function Products(props) {
         <div className="item-container">
           <img src={item.imgURL} alt="Pic" />
           <h3>{item.name}</h3>
-          <h5>${item.price}</h5>
+          <h2>${item.price}</h2>
         </div>
       </Link>
     );
