@@ -4,11 +4,13 @@ import "./Nav.css";
 
 export default function Nav() {
   return (
-    <div className="header">
+    <div>
       <Link to="/">
-        <h1>ProductsApp</h1>
+        <h1 className="header">ProductsApp</h1>
       </Link>
-      <hr className="hr" />
+      <div>
+        <hr className="hr" />
+      </div>
     </div>
   );
 }
