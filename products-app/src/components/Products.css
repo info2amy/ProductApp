@@ -1,20 +1,22 @@
-ol {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  height: 20px;
-  width: 20px;
-}
-
-/* .item-container {
-  text-decoration: none;
-} */
-
 a {
   text-decoration: none;
+  color: black;
+}
+
+ol {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90vw;
+}
+
+.item-container {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  /* height: 300px;
-  width: 200px; */
+  overflow: hidden;
+}
+
+.item-container img {
+  width: 300px;
 }

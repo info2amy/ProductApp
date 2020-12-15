@@ -33,7 +33,7 @@ export default function Products(props) {
   return (
     <div>
       <div className="productspage">
-        <input onChange={handleChange}></input>
+        <input onChange={handleChange} placeholder="Search" />
         <h4>SORT BY:</h4>
         <ol>{items}</ol>
       </div>
