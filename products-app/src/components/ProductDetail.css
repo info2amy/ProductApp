@@ -1,22 +1,29 @@
-/* .item-deets {
+.item-deets {
   display: flex;
-  flex-direction: column;
-} */
+  flex-direction: row;
+  margin: 0 auto;
+  width: 65vw;
+}
 
 .item-deets img {
-  /* display: inline-block; */
-  width: 500px;
+  /* width: 500px; */
   margin-top: 0;
 }
 
-.item-deets h3 {
+.item-text h3 {
   display: b;
   font-size: 25px;
 }
 
-.item-deets p {
-  width: 60vw;
+.item-text p {
+  /* width: 60vw; */
   letter-spacing: 0.8px;
   line-height: 1.5;
   justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+  .item-deets {
+    flex-direction: column;
+  }
 }

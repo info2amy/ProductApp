@@ -23,9 +23,11 @@ export default function ProductDetail(props) {
   return (
     <div className="item-deets" key={item._id}>
       <img src={item.imgURL} alt="Pic" />
-      <h3>{item.name}</h3>
-      <h2>${item.price}</h2>
-      <p>{item.description}</p>
+      <div className="item-text">
+        <h3>{item.name}</h3>
+        <h2>${item.price}</h2>
+        <p>{item.description}</p>
+      </div>
     </div>
   );
 }
